@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Фокус-обводка по Tab */
+.focus-ring:focus-visible {
+  outline: 2px solid;
+  outline-offset: 2px;
+}
