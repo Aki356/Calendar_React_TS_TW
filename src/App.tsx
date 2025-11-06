@@ -63,7 +63,7 @@ export default function App() {
           </p>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-4 md:grid-cols-1">
           <div className="bg-white shadow-sm rounded-2xl p-4">
             <Calendar
               value={value}
